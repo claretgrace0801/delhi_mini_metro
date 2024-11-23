@@ -1,0 +1,858 @@
+{
+	"id": "testmap",
+	"customName": "333",
+	"customLocalName": "Welcome to 333",
+	"customLocalNameLocale": "en_US",
+	"customCountryName": "Brazil",
+	"customDescription": "WOHOOOO",
+	"lineCount": 5,
+	"crossingStyle": "Tunnel",
+	"audioLoadoutId": "saopaulo",
+	"theme": "testTheme",
+	"debugShowCityAreas": true,
+	"obstacles": [
+		{
+			"points": [
+				[
+					74.89,
+					1240
+				],
+				[
+					168.01,
+					1240
+				],
+				[
+					657.85,
+					762.3
+				],
+				[
+					593.08,
+					122.66
+				],
+				[
+					755.01,
+					-19.03
+				],
+				[
+					730.72,
+					-197.15
+				],
+				[
+					1022.2,
+					-521.02
+				],
+				[
+					1022.2,
+					-925.85
+				],
+				[
+					1285.34,
+					-1217.33
+				],
+				[
+					1192.23,
+					-1240
+				],
+				[
+					888.61,
+					-925.85
+				],
+				[
+					908.85,
+					-496.73
+				],
+				[
+					645.71,
+					-176.91
+				],
+				[
+					649.76,
+					-0
+				],
+				[
+					516.16,
+					106.47
+				],
+				[
+					568.79,
+					738.01
+				],
+				[
+					516.16,
+					782.54
+				],
+				[
+					540.45,
+					814.93
+				],
+				[
+					281.36,
+					1053.78
+				],
+				[
+					228.73,
+					1029.49
+				]
+			],
+			"note": "the Main Water Body for Gameplay",
+			"inverted": false,
+			"transition": false,
+			"logical": false,
+			"visual": true,
+			"inPreview": true,
+			"decoration": false,
+			"alpha": 255,
+			"cornerRadius": -1.0,
+		},
+	],
+	"origin": [
+		0,
+		0
+	],
+	"zoom": {
+		"start": 0.3,
+		"end": 0.3,
+		"earlyZoom": 1.0,
+		"lateZoom": 0.4,
+		"delay": 0,
+		"duration": 10
+	},
+	"startArea": {
+		"rightBottom": [
+			-0.1,
+			-0.2
+		],
+		"leftTop": [
+			-0.1,
+			-0.2
+		],
+	},
+	"cityAreas": [
+		
+		{
+			"label": "Area 1",
+			"paths": [
+			  {
+				"points": [
+				  [-265.16, -504.83],
+				  [0, -423.86],
+				  [30.36, -265.97],
+				  [-18.22, -180.96],
+				  [-297.55, -265.97],
+				  [-297.55, -423.86]
+				]
+			  }
+			],
+			"density": 1.0,
+			"stationSpawns": [
+			  {
+				"type": "SQUARE",
+				"weight": 0.5,
+				"maximum": -1,
+				"activeDay": -1
+			  }
+			]
+		  },
+		  {
+			"label": "Area 2",
+			"paths": [
+			  {
+				"points": [
+				  [180.15, 426.29],
+				  [427.1, 515.35],
+				  [309.7, 956.62],
+				  [143.72, 940.42],
+				  [-54.65, 1159.03],
+				  [-123.47, 1114.5],
+				  [70.85, 867.55]
+				]
+			  }
+			],
+			"density": 1.0,
+			"stationSpawns": [
+			  {
+				"type": "SQUARE",
+				"weight": 0.5,
+				"maximum": -1,
+				"activeDay": -1
+			  }
+			]
+		  },
+		  {
+			"label": "Area 3",
+			"paths": [
+			  {
+				"points": [
+				  [-220.63, 21.46],
+				  [-30.36, -136.43],
+				  [309.7, -136.43],
+				  [459.48, -23.08],
+				  [427.1, 284.6],
+				  [-18.22, 260.31]
+				]
+			  }
+			],
+			"density": 1.0,
+			"stationSpawns": [
+			  {
+				"type": "SQUARE",
+				"weight": 0.5,
+				"maximum": -1,
+				"activeDay": -1
+			  }
+			]
+		  },
+		  {
+			"label": "Area 4",
+			"paths": [
+			  {
+				"points": [
+				  [1119.36, -889.42],
+				  [1584.92, -917.75],
+				  [1665.88, -55.46],
+				  [876.46, 0],
+				  [811.69, -136.43],
+				  [1099.12, -504.83]
+				]
+			  }
+			],
+			"density": 1.0,
+			"stationSpawns": [
+			  {
+				"type": "SQUARE",
+				"weight": 0.5,
+				"maximum": -1,
+				"activeDay": -1
+			  }
+			]
+		  },
+		  {
+			"label": "Area 5",
+			"paths": [
+			  {
+				"points": [
+				  [378.52, -1055.4],
+				  [427.1, -1091.83],
+				  [601.18, -1055.4],
+				  [597.13, -365.16],
+				  [459.48, -365.16]
+				]
+			  }
+			],
+			"density": 1.0,
+			"stationSpawns": [
+			  {
+				"type": "SQUARE",
+				"weight": 0.5,
+				"maximum": -1,
+				"activeDay": -1
+			  }
+			]
+		  },
+		  {
+			"label": "Area 6",
+			"paths": [
+			  {
+				"points": [
+				  [-362.32, -889.42],
+				  [-192.3, -772.01],
+				  [-123.47, -658.66],
+				  [-285.41, -577.7],
+				  [-329.94, -529.12],
+				  [-556.64, -715.34],
+				  [-479.73, -824.64]
+				]
+			  }
+			],
+			"density": 1.0,
+			"stationSpawns": [
+			  {
+				"type": "SQUARE",
+				"weight": 0.5,
+				"maximum": -1,
+				"activeDay": -1
+			  }
+			]
+		  },
+		  {
+			"label": "Area 7",
+			"paths": [
+			  {
+				"points": [
+				  [-1159.84, -950.14],
+				  [-965.52, -1055.4],
+				  [-698.33, -1091.83],
+				  [-544.5, -966.33],
+				  [-580.93, -917.75],
+				  [-625.47, -755.82],
+				  [-1001.96, -772.01]
+				]
+			  }
+			],
+			"density": 1.0,
+			"stationSpawns": [
+			  {
+				"type": "SQUARE",
+				"weight": 0.5,
+				"maximum": -1,
+				"activeDay": -1
+			  }
+			]
+		  },
+		  {
+			"label": "Area 8",
+			"paths": [
+			  {
+				"points": [
+				  [-965.52, -529.12],
+				  [-641.66, -472.44],
+				  [-625.47, -221.44],
+				  [-775.25, -201.2],
+				  [-983.74, -265.97],
+				  [-1030.3, -423.86]
+				]
+			  }
+			],
+			"density": 1.0,
+			"stationSpawns": [
+			  {
+				"type": "SQUARE",
+				"weight": 0.5,
+				"maximum": -1,
+				"activeDay": -1
+			  }
+			]
+		  },
+		  {
+			"label": "Area 9",
+			"paths": [
+			  {
+				"points": [
+				  [-872.41, 70.04],
+				  [-601.18, -164.77],
+				  [-394.71, -55.46],
+				  [-556.64, 122.66],
+				  [-544.5, 284.6],
+				  [-394.71, 373.66],
+				  [-30.36, 385.8],
+				  [-26.31, 482.96],
+				  [-329.94, 482.96],
+				  [-423.05, 539.64],
+				  [-823.83, 333.18]
+				]
+			  }
+			],
+			"density": 1.0,
+			"stationSpawns": [
+			  {
+				"type": "SQUARE",
+				"weight": 0.5,
+				"maximum": -1,
+				"activeDay": -1
+			  }
+			]
+		  },
+		  {
+			"label": "Area 10",
+			"paths": [
+			  {
+				"points": [
+				  [-1414.89, 426.29],
+				  [-1139.6, 458.67],
+				  [-1070.78, 284.6],
+				  [-1062.68, -249.78],
+				  [-1475.61, -261.93]
+				]
+			  }
+			],
+			"density": 1.0,
+			"stationSpawns": [
+			  {
+				"type": "SQUARE",
+				"weight": 0.5,
+				"maximum": -1,
+				"activeDay": -1
+			  }
+			]
+		  },
+		  {
+			"label": "Area 11",
+			"paths": [
+			  {
+				"points": [
+				  [-1657.79, 592.27],
+				  [-394.71, 592.27],
+				  [-297.55, 644.9],
+				  [-293.5, 823.02],
+				  [-1621.35, 867.55],
+				  [-1673.98, 766.35]
+				]
+			  }
+			],
+			"density": 1.0,
+			"stationSpawns": [
+			  {
+				"type": "SQUARE",
+				"weight": 0.5,
+				"maximum": -1,
+				"activeDay": -1
+			  }
+			]
+		  },
+		  {
+			"label": "Area 12",
+			"paths": [
+			  {
+				"points": [
+				  [730.72, 810.88],
+				  [783.35, 155.05],
+				  [1232.71, 171.24],
+				  [1228.66, 333.18],
+				  [1665.88, 349.37],
+				  [1726.61, 482.96],
+				  [1690.17, 592.27],
+				  [1046.49, 689.43],
+				  [973.62, 814.93]
+				]
+			  }
+			],
+			"density": 1.0,
+			"stationSpawns": [
+			  {
+				"type": "SQUARE",
+				"weight": 0.5,
+				"maximum": -1,
+				"activeDay": -1
+			  }
+			]
+		  }
+	],
+	"stationSeparationScale": 1.0,
+	"stationSpawns": {
+		"cooldown": 0,
+		"schedule": [
+			{
+				"numDays": 5,
+				"randomness": 0.2,
+				"types": [
+					"SQUARE",
+					"SQUARE",
+					"SQUARE",
+					"SQUARE",
+					"SQUARE",
+					"SQUARE",
+					"SQUARE",
+					"SQUARE"
+				]
+			}
+		],
+		"special": [
+			"PENTAGON",
+			"DIAMOND",
+			"STAR",
+			"CROSS",
+			"WEDGE",
+			"EGG",
+			"GEM"
+		],
+	},
+	"passengerSpawnScale": 1.0,
+	"stationCapacity": 6,
+	"interchangeCapacity": 18,
+	"upgrades": {
+		"initial": [
+			"Line",
+			"Line",
+			"Line",
+			"Locomotive",
+			"Locomotive",
+			"Locomotive",
+			"Crossing",
+			"Crossing",
+		],
+		"numOptions": [
+			2,
+			1,
+			2
+		],
+		"unlocks": [
+			[
+				{
+					"type": "Line",
+					"max": 2,
+					"count": 1,
+					"weight": 0.2,
+					"week": 0
+				},
+				{
+					"type": "Locomotive",
+					"max": 0,
+					"count": 1,
+					"weight": 0.2,
+					"week": 0
+				},
+				{
+					"type": "Locomotive",
+					"max": 0,
+					"count": 1,
+					"weight": 0.2,
+					"week": 0
+				},
+				{
+					"type": "Locomotive",
+					"max": 0,
+					"count": 1,
+					"weight": 0.2,
+					"week": 0
+				},
+				{
+					"type": "Locomotive",
+					"max": 0,
+					"count": 1,
+					"weight": 0.2,
+					"week": 0
+				},
+				{
+					"type": "Locomotive",
+					"max": 0,
+					"count": 1,
+					"weight": 0.2,
+					"week": 0
+				},
+			],
+			[
+				{
+					"type": "Line",
+					"max": 2,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+				{
+					"type": "Locomotive",
+					"max": 0,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+				{
+					"type": "Locomotive",
+					"max": 0,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+				{
+					"type": "Locomotive",
+					"max": 0,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+				{
+					"type": "Locomotive",
+					"max": 0,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+				{
+					"type": "Tram",
+					"max": 0,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+			],
+			[
+				{
+					"type": "Locomotive",
+					"max": 0,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+				{
+					"type": "Locomotive",
+					"max": 0,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+				{
+					"type": "Line",
+					"max": 2,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+				{
+					"type": "Tram",
+					"max": 0,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+			],
+			[
+				{
+					"type": "Line",
+					"max": 2,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+				{
+					"type": "Locomotive",
+					"max": 0,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+				{
+					"type": "Locomotive",
+					"max": 0,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+				{
+					"type": "Tram",
+					"max": 0,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+			],
+			[
+				{
+					"type": "Line",
+					"max": 2,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+				{
+					"type": "Tram",
+					"max": 0,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+			],
+			[
+				{
+					"type": "Line",
+					"max": 2,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+				{
+					"type": "Tram",
+					"max": 0,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+			],
+			[
+				{
+					"type": "Line",
+					"max": 2,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+				{
+					"type": "Tram",
+					"max": 0,
+					"count": 1,
+					"weight": 0.5,
+					"week": 0
+				},
+			],
+		]
+	},
+	"assetNames": [
+		{
+			"asset": "Line",
+			"title": "LRT Line",
+			"description": "New Line for LRT Cars.",
+			"forceDescription": true,
+		},
+		{
+			"asset": "Tram",
+			"title": "LRT Car",
+			"description": "An LRT Car for the Downtown Tramway.",
+			"forceDescription": true,
+		},
+		{
+			"asset": "Locomotive",
+			"title": "Metro Car",
+			"description": "A Metro Car for the Permanent Metro Lines.",
+			"forceDescription": true,
+		},
+	],
+	"trainDefinition": "VLTCarioca",
+	"stations": [
+		{
+			"tag": "StartCircle",
+			"type": "circle"
+		},
+		{
+			"tag": "StartTriangle",
+			"type": "triangle"
+		},
+		{
+			"tag": "StartTriangle",
+			"type": "square"
+		},
+	],
+	"lines": [
+		
+	],
+	"transitions": [
+		{
+			"points": [
+				[
+					13000,
+					700
+				],
+				[
+					8932.3,
+					615
+				],
+				[
+					3182.1,
+					742.1
+				],
+				[
+					0,
+					0
+				],
+			],
+			"id": "menu-game",
+			"duration": -1.0,
+			"rotationDuration": -0.66
+		},
+		{
+			"points": [
+				[
+					13000,
+					700
+				],
+				[
+					8932.3,
+					615
+				],
+				[
+					3182.1,
+					742.1
+				],
+				[
+					0,
+					0
+				],
+			],
+			"id": "menu-pause",
+			"duration": -1.0,
+			"rotationDuration": -0.66
+		}
+	],
+	"preview": {
+		"window": {
+			"oldposition": [
+				-250,
+				-1150
+			],
+			"oldsize": [
+				1800,
+				1800
+			],
+			"position": [
+				-350,
+				-950
+			],
+			"size": 1550.0,
+		},
+		"hidePermanentLines": true,
+		"stations": [
+			{
+				"tag": "blue1",
+				"type": "circle",
+				"position": [
+					-272,
+					126
+				],
+				"ghost": false,
+				"interchange": false
+			},
+			{
+				"tag": "blue2",
+				"type": "square",
+				"position": [
+					-30,
+					126
+				],
+				"ghost": false,
+				"interchange": false
+			},
+			{
+				"tag": "blue3",
+				"type": "triangle",
+				"position": [
+					418,
+					-25
+				],
+				"ghost": false,
+				"interchange": false
+			},
+		],
+		"lines": [
+			{
+				"index": 0,
+				"links": [
+					{
+						"station": "blue1",
+						"stops": [
+							{
+								"direction": "EAST",
+								"platform": 0
+							},
+						],
+					},
+					{
+						"station": "blue2",
+						"stops": [
+							{
+								"direction": "WEST",
+								"platform": 0
+							},
+							{
+								"direction": "EAST",
+								"platform": 0
+							},
+						],
+					},
+					{
+						"station": "blue6",
+						"stops": [
+							{
+								"direction": "NORTHWEST",
+								"platform": 0
+							},
+						],
+					},
+				],
+				"startAssets": [
+					"Locomotive",
+					"Locomotive",
+					"Carriage",
+					"Carriage"
+				],
+				"canEditTrains": false
+			},
+		],
+	},
+}
