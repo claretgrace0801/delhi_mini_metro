@@ -1,16 +1,16 @@
 {
 	"id": "testmap",
-	"customName": "333",
-	"customLocalName": "Welcome to 333",
+	"customName": "Delhi",
+	"customLocalName": "* cough cough *",
 	"customLocalNameLocale": "en_US",
-	"customCountryName": "Brazil",
-	"customDescription": "WOHOOOO",
+	"customCountryName": "India",
+	"customDescription": "Welcome to the Delhi Metro Network",
 	"lineCount": 5,
-	"crossingStyle": "Tunnel",
+	"crossingStyle": "Bridge",
 	"audioLoadoutId": "saopaulo",
 	"theme": "testTheme",
 	"countSpecialsTogether": true,
-	"debugShowCityAreas": true,
+	"debugShowCityAreas": false,
 	"obstacles": [
 		{
 			"points": [
@@ -111,55 +111,27 @@
 		0
 	],
 	"zoom": {
-		"start": 0.3,
-		"end": 0.3,
+		"start": 1,
+		"end": 0.4,
 		"earlyZoom": 1.0,
 		"lateZoom": 0.4,
-		"delay": 0,
-		"duration": 10
+		"delay": 10,
+		"duration": 25		
 	},
 	"startArea": {
 		"rightBottom": [
-			-0.1,
-			-0.2
+			1,
+			0
 		],
 		"leftTop": [
-			-0.1,
-			-0.2
+			1,
+			0
 		],
 	},
 	"cityAreas": [
 		{
 			"label": "Generic",
 			"paths": [
-				{
-					"points": [
-						[
-							-265.16,
-							-504.83
-						],
-						[
-							0,
-							-423.86
-						],
-						[
-							30.36,
-							-265.97
-						],
-						[
-							-18.22,
-							-180.96
-						],
-						[
-							-297.55,
-							-265.97
-						],
-						[
-							-297.55,
-							-423.86
-						]
-					]
-				},
 				{
 					"points": [
 						[
@@ -296,6 +268,38 @@
 						]
 					]
 				},
+			],
+			"density": 1.0,
+			"stationSpawns": [
+				{
+					"type": "CIRCLE",
+					"weight": 10,
+					"maximum": -1,
+					"activeDay": 25
+				},
+				{
+					"type": "TRIANGLE",
+					"weight": 4,
+					"maximum": -1,
+					"activeDay": 25
+				},
+				{
+					"type": "SQUARE",
+					"weight": 3,
+					"maximum": -1,
+					"activeDay": 35
+				},
+				{
+					"type": "SPECIAL",
+					"weight": 1,
+					"maximum": 2,
+					"activeDay": 40
+				},
+			]
+		},
+		{
+			"label": "Dwarka",
+			"paths": [
 				{
 					"points": [
 						[
@@ -320,6 +324,38 @@
 						]
 					]
 				},
+			],
+			"density": 1.0,
+			"stationSpawns": [
+				{
+					"type": "CIRCLE",
+					"weight": 10,
+					"maximum": -1,
+					"activeDay": 40
+				},
+				{
+					"type": "TRIANGLE",
+					"weight": 4,
+					"maximum": -1,
+					"activeDay": 40
+				},
+				{
+					"type": "SQUARE",
+					"weight": 3,
+					"maximum": -1,
+					"activeDay": 40
+				},
+				{
+					"type": "SPECIAL",
+					"weight": 1,
+					"maximum": 1,
+					"activeDay": 40
+				},
+			]
+		},
+		{
+			"label": "West Delhi",
+			"paths": [
 				{
 					"points": [
 						[
@@ -348,6 +384,38 @@
 						]
 					]
 				},
+			],
+			"density": 1.0,
+			"stationSpawns": [
+				{
+					"type": "CIRCLE",
+					"weight": 10,
+					"maximum": -1,
+					"activeDay": 40
+				},
+				{
+					"type": "TRIANGLE",
+					"weight": 4,
+					"maximum": -1,
+					"activeDay": 40
+				},
+				{
+					"type": "SQUARE",
+					"weight": 3,
+					"maximum": -1,
+					"activeDay": 40
+				},
+				{
+					"type": "SPECIAL",
+					"weight": 1,
+					"maximum": 1,
+					"activeDay": 40
+				},
+			]
+		},
+		{
+			"label": "East Delhi",
+			"paths": [
 				{
 					"points": [
 						[
@@ -412,8 +480,68 @@
 				{
 					"type": "SPECIAL",
 					"weight": 1,
-					"maximum": -1,
+					"maximum": 1,
 					"activeDay": -1
+				},
+			]
+		},
+		{
+			"label": "IIT",
+			"paths": [
+				{
+					"points": [
+						[
+							-265.16,
+							-504.83
+						],
+						[
+							0,
+							-423.86
+						],
+						[
+							30.36,
+							-265.97
+						],
+						[
+							-18.22,
+							-180.96
+						],
+						[
+							-297.55,
+							-265.97
+						],
+						[
+							-297.55,
+							-423.86
+						]
+					]
+				},
+			],
+			"density": 1.0,
+			"stationSpawns": [
+				{
+					"type": "CIRCLE",
+					"weight": 4,
+					"maximum": -1,
+					"activeDay": 14
+				},
+				{
+					"type": "TRIANGLE",
+					"weight": 8,
+					"maximum": -1,
+					"activeDay": 14
+				},
+				{
+					"type": "SQUARE",
+					"weight": 3,
+					"maximum": -1,
+					"activeDay": 20
+				},
+				{
+					"type": "SPECIAL",
+					"weight": 7,
+					"maximum": 1,
+					"activeDay": 30
 				},
 			]
 		},
@@ -472,7 +600,7 @@
 				{
 					"type": "SPECIAL",
 					"weight": 7,
-					"maximum": -1,
+					"maximum": 2,
 					"activeDay": -1
 				},
 			]
@@ -532,7 +660,7 @@
 				{
 					"type": "SPECIAL",
 					"weight": 4,
-					"maximum": -1,
+					"maximum": 2,
 					"activeDay": -1
 				},
 			]
@@ -579,25 +707,25 @@
 					"type": "CIRCLE",
 					"weight": 5,
 					"maximum": -1,
-					"activeDay": -1
+					"activeDay": 32
 				},
 				{
 					"type": "TRIANGLE",
 					"weight": 10,
 					"maximum": -1,
-					"activeDay": -1
+					"activeDay": 32
 				},
 				{
 					"type": "SQUARE",
 					"weight": 6,
 					"maximum": -1,
-					"activeDay": -1
+					"activeDay": 32
 				},
 				{
 					"type": "SPECIAL",
 					"weight": 4,
-					"maximum": -1,
-					"activeDay": -1
+					"maximum": 2,
+					"activeDay": 40
 				},
 			]
 		},
@@ -639,45 +767,63 @@
 					"type": "CIRCLE",
 					"weight": 1,
 					"maximum": -1,
-					"activeDay": -1
+					"activeDay": 30
 				},
 				{
 					"type": "TRIANGLE",
 					"weight": 4,
 					"maximum": -1,
-					"activeDay": -1
+					"activeDay": 30
 				},
 				{
 					"type": "SQUARE",
 					"weight": 2,
 					"maximum": -1,
-					"activeDay": -1
+					"activeDay": 30
 				},
 				{
 					"type": "SPECIAL",
 					"weight": 10,
-					"maximum": -1,
-					"activeDay": -1
+					"maximum": 1,
+					"activeDay": 30
 				},
 			]
 		},
 	],
 	"stationSeparationScale": 1.0,
 	"stationSpawns": {
-		"cooldown": 0,
+		"cooldown": 7,
 		"schedule": [
 			{
-				"numDays": 5,
-				"randomness": 0.2,
+				"numDays": 14,
+				"randomness": 1,
 				"types": [
-					"SQUARE",
-					"PENTAGON",
-					"SQUARE",
-					"SQUARE",
-					"SQUARE",
-					"SQUARE",
-					"SQUARE",
+					"CIRCLE",
+					"CIRCLE",
+					"CIRCLE",
+					"TRIANGLE",
+					"TRIANGLE",
 					"SQUARE"
+				]
+			},
+			{
+				"numDays": 14,
+				"randomness": 1,
+				"types": [
+					"CIRCLE",
+					"CIRCLE",
+					"SPECIAL",
+					"TRIANGLE",
+					"SQUARE"
+				]
+			},
+			{
+				"numDays": 7,
+				"randomness": 1,
+				"types": [
+					"CIRCLE",
+					"CIRCLE",
+					"CIRCLE"
 				]
 			}
 		],
@@ -687,8 +833,6 @@
 			"STAR",
 			"CROSS",
 			"WEDGE",
-			"EGG",
-			"GEM"
 		],
 	},
 	"passengerSpawnScale": 1.0,
@@ -707,8 +851,7 @@
 		],
 		"numOptions": [
 			2,
-			1,
-			2
+			2,
 		],
 		"unlocks": [
 			[
@@ -716,113 +859,11 @@
 					"type": "Line",
 					"max": 2,
 					"count": 1,
-					"weight": 0.2,
-					"week": 0
-				},
-				{
-					"type": "Locomotive",
-					"max": 0,
-					"count": 1,
-					"weight": 0.2,
-					"week": 0
-				},
-				{
-					"type": "Locomotive",
-					"max": 0,
-					"count": 1,
-					"weight": 0.2,
-					"week": 0
-				},
-				{
-					"type": "Locomotive",
-					"max": 0,
-					"count": 1,
-					"weight": 0.2,
-					"week": 0
-				},
-				{
-					"type": "Locomotive",
-					"max": 0,
-					"count": 1,
-					"weight": 0.2,
-					"week": 0
-				},
-				{
-					"type": "Locomotive",
-					"max": 0,
-					"count": 1,
-					"weight": 0.2,
-					"week": 0
-				},
-			],
-			[
-				{
-					"type": "Line",
-					"max": 2,
-					"count": 1,
 					"weight": 0.5,
 					"week": 0
 				},
 				{
 					"type": "Locomotive",
-					"max": 0,
-					"count": 1,
-					"weight": 0.5,
-					"week": 0
-				},
-				{
-					"type": "Locomotive",
-					"max": 0,
-					"count": 1,
-					"weight": 0.5,
-					"week": 0
-				},
-				{
-					"type": "Locomotive",
-					"max": 0,
-					"count": 1,
-					"weight": 0.5,
-					"week": 0
-				},
-				{
-					"type": "Locomotive",
-					"max": 0,
-					"count": 1,
-					"weight": 0.5,
-					"week": 0
-				},
-				{
-					"type": "Tram",
-					"max": 0,
-					"count": 1,
-					"weight": 0.5,
-					"week": 0
-				},
-			],
-			[
-				{
-					"type": "Locomotive",
-					"max": 0,
-					"count": 1,
-					"weight": 0.5,
-					"week": 0
-				},
-				{
-					"type": "Locomotive",
-					"max": 0,
-					"count": 1,
-					"weight": 0.5,
-					"week": 0
-				},
-				{
-					"type": "Line",
-					"max": 2,
-					"count": 1,
-					"weight": 0.5,
-					"week": 0
-				},
-				{
-					"type": "Tram",
 					"max": 0,
 					"count": 1,
 					"weight": 0.5,
@@ -834,77 +875,36 @@
 					"type": "Line",
 					"max": 2,
 					"count": 1,
-					"weight": 0.5,
+					"weight": 0.2,
 					"week": 0
 				},
 				{
 					"type": "Locomotive",
 					"max": 0,
 					"count": 1,
-					"weight": 0.5,
+					"weight": 0.2,
 					"week": 0
 				},
 				{
-					"type": "Locomotive",
+					"type": "Crossing",
+					"max": 0,
+					"count": 1,
+					"weight": 0.3,
+					"week": 0
+				},
+				{
+					"type": "Carriage",
 					"max": 0,
 					"count": 1,
 					"weight": 0.5,
 					"week": 0
 				},
 				{
-					"type": "Tram",
+					"type": "Interchange",
 					"max": 0,
 					"count": 1,
-					"weight": 0.5,
-					"week": 0
-				},
-			],
-			[
-				{
-					"type": "Line",
-					"max": 2,
-					"count": 1,
-					"weight": 0.5,
-					"week": 0
-				},
-				{
-					"type": "Tram",
-					"max": 0,
-					"count": 1,
-					"weight": 0.5,
-					"week": 0
-				},
-			],
-			[
-				{
-					"type": "Line",
-					"max": 2,
-					"count": 1,
-					"weight": 0.5,
-					"week": 0
-				},
-				{
-					"type": "Tram",
-					"max": 0,
-					"count": 1,
-					"weight": 0.5,
-					"week": 0
-				},
-			],
-			[
-				{
-					"type": "Line",
-					"max": 2,
-					"count": 1,
-					"weight": 0.5,
-					"week": 0
-				},
-				{
-					"type": "Tram",
-					"max": 0,
-					"count": 1,
-					"weight": 0.5,
-					"week": 0
+					"weight": 0.2,
+					"week": 4
 				},
 			],
 		]
@@ -938,11 +938,7 @@
 		{
 			"tag": "StartTriangle",
 			"type": "triangle"
-		},
-		{
-			"tag": "StartTriangle",
-			"type": "square"
-		},
+		}
 	],
 	"lines": [],
 	"transitions": [
@@ -993,6 +989,10 @@
 			"rotationDuration": -0.66
 		}
 	],
+
+
+
+
 	"preview": {
 		"window": {
 			"oldposition": [
@@ -1011,81 +1011,9 @@
 		},
 		"hidePermanentLines": true,
 		"stations": [
-			{
-				"tag": "blue1",
-				"type": "circle",
-				"position": [
-					-272,
-					126
-				],
-				"ghost": false,
-				"interchange": false
-			},
-			{
-				"tag": "blue2",
-				"type": "square",
-				"position": [
-					-30,
-					126
-				],
-				"ghost": false,
-				"interchange": false
-			},
-			{
-				"tag": "blue3",
-				"type": "triangle",
-				"position": [
-					418,
-					-25
-				],
-				"ghost": false,
-				"interchange": false
-			},
 		],
 		"lines": [
-			{
-				"index": 0,
-				"links": [
-					{
-						"station": "blue1",
-						"stops": [
-							{
-								"direction": "EAST",
-								"platform": 0
-							},
-						],
-					},
-					{
-						"station": "blue2",
-						"stops": [
-							{
-								"direction": "WEST",
-								"platform": 0
-							},
-							{
-								"direction": "EAST",
-								"platform": 0
-							},
-						],
-					},
-					{
-						"station": "blue6",
-						"stops": [
-							{
-								"direction": "NORTHWEST",
-								"platform": 0
-							},
-						],
-					},
-				],
-				"startAssets": [
-					"Locomotive",
-					"Locomotive",
-					"Carriage",
-					"Carriage"
-				],
-				"canEditTrains": false
-			},
+			
 		],
 	},
 }
